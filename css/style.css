@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+html,body{
+    height:100%;
+    background-color:rgba(202,202,202,0.7);
+}
+
+/* HEADER COM AS LOGOS */
+
+header{
+    background-color: #ccc;
+    height:100px;
+}
+.container{
+    max-width: 1000px;
+    padding:10px 2%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:510px) {
+    
+    .container{
+        display:block;
+        text-align: center;
+    }
+
+    header{
+        height: auto;
+        
+    }
+}
+
+/* -------------------------- */
+
+/* FORMULARIO E BG */
+
+section.cover-form{
+    width:100%;
+    margin:0 auto;
+   
+}
+
+.bg{
+    height: 700px;
+    background-image: url(../imagens/bg-form.jpg);
+    background-size:100% 650px;
+    background-repeat: no-repeat;
+}
+
+.container-form{
+   float: right;
+   width: 400px;
+   height:87%;
+   margin:20px;
+   background-color:rgba(202,202,202,0.7);
+
+}
+
+.container-form h2{
+    background-color: rgb(234 , 236 , 238);
+    font-size:18px;
+    padding:30px 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: black;
+    
+}
+
+.input-container{
+    height: 100px;
+    margin:10px 2% ;
+}
+
+.input-container input {
+    height: 50px;
+    width:99%;
+}
+
+.input-submit__c{
+    text-align: center;
+}
+
+.input-submit__c input{
+    background-color: #003752;
+    color:white;
+    width:90%;
+    height: 60px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#campo{
+    margin-top:40px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:960px){
+    
+
+    .bg{
+        text-align: center;
+       
+    }
+    
+
+    .container-form{
+        max-width:400px ;
+        width: 96%;
+        float: none;
+        margin: 0 auto;
+        
+    }
+}
+/* /* ------------------ */
+
+.chamada{
+    background-color:#2A536F;
+    height: 200px;
+    position: relative;
+    top:-50px;
+    color:white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.chamada p {
+    padding:10px;
+    font-weight: bold;
+}
+
+/*-------------------------*/
+
+/* MOSAICOS */
+
+.mosaico{
+    max-width: 1000px;
+    margin:0 auto;
+    position: relative;
+    top:-47px;
+}
+
+.mosaico-c{
+    display: flex;
+    align-items: center;
+    background-color: #688CA5;
+}
+
+.textomosaico{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    padding:30px;
+    
+}
+.mosaico img{
+    width:55%;
+}
+
+@media screen and (max-width:850px){
+    .mosaico-c{
+        display: block;
+
+    }
+
+    .mosaico img{
+        width:100%;
+        
+    }
+}
+
+/*-----------------*/
+
+footer{
+    background-color: gray;
+    text-align: center;
+    height:100px;
+    position: relative;
+    top:-40px;
+    padding: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
